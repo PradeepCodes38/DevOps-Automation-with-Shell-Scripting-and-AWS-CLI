@@ -1,0 +1,42 @@
+To fetch your GitHub directory in the Linux CLI, you can use the git clone command.
+ Here's how you can do it:
+
+.. Open your terminal or command prompt in Linux.
+.. Navigate to the directory where you want to clone the GitHub repository using the cd command.
+.. Use the following command to clone your GitHub repository:
+
+---------$ gh repo clone Pradeepyadav38/-DevOps-Automation-with-Shell-Scripting-and-AWS-CLI---------
+
+
+if not installed
+
+--------$ sudo install gh------------
+
+go to the github and click on green color CODE option where you get the git clone link of your repository
+
+-----------------$ git clone https://github.com/Pradeepyadav38/DevOps-Automation-with-Shell-Scripting-and-AWS-CLI.git-----------
+
+go to the repository using 
+
+---------------$ cd DevOps-Automation-with-Shell-Scripting-and-AWS-CLI --------------
+
+copy the script file and paste into directory using $cp
+
+------------$ cp script.sh DevOps-Automation-with-Shell-Scripting-and-AWS-CLI-------------
+
+Add the script 
+
+-----------$  git add script.sh--------------
+
+commit the script
+
+-----------$git commit -m "final"-----------
+
+for pushing your repository using token 
+
+---------$ git remote set-url origin https://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@github.com/Pradeepyadav38/DevOps-Automation-with-Shell-Scripting-and-AWS-CLI----------------------
+
+At final Step 
+
+--------$ git push origin main---------
+
